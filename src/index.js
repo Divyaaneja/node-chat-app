@@ -1,7 +1,7 @@
 //creating server in server side js file
 const path = require('path')
-const express = require('express')
 const http = require('http')
+const express = require('express')
 const socketio = require('socket.io')
 const Filter = require('bad-words')
 const { generateMessage, generateLocationMessage } = require('./utils/message')
