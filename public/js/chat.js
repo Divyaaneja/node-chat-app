@@ -1,4 +1,3 @@
-//const users = require("../../src/utils/users")
 
 const socket = io()
 

@@ -7,8 +7,6 @@ const Filter = require('bad-words')
 const { generateMessage, generateLocationMessage } = require('./utils/message')
 const { addUser, removeUser, getUser, getUsersInRoom } = require('./utils/users')
 
-const { Socket } = require('dgram')
-
 const app = express()
 const server = http.createServer(app)
 const io = socketio(server)
